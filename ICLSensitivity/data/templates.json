@@ -1,0 +1,65 @@
+[
+    {
+        "instruction": "Review: <text>\n\nIs the review positive or negative?\n\n<verbalizer>",
+        "verbalizers": [
+            "Negative",
+            "Positive"
+        ]
+    },
+    {
+        "instruction": "Based on this review, would the user recommend this product?\n\nReview: <text>\n\nAnswer:\n\n<verbalizer>",
+        "verbalizers": [
+            "No",
+            "Yes"
+        ]
+    },
+    {
+        "instruction": "Is this product review positive?\n\nReview: <text>\n\nAnswer: <verbalizer>",
+        "verbalizers": [
+            "No",
+            "Yes"
+        ]
+    },
+    {
+        "instruction": "Review: <text>\n\nIs this product review negative?\n\n<verbalizer>",
+        "verbalizers": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "instruction": "Review: <text>\n\nDoes this product review convey a negative or positive sentiment?\n\n<verbalizer>",
+        "verbalizers": [
+            "Negative",
+            "Positive"
+        ]
+    },
+    {
+        "instruction": "Is there a negative or positive tone to this product review?\n\nReview: <text>\n\nAnswer:\n\n<verbalizer>",
+        "verbalizers": [
+            "Negative",
+            "Positive"
+        ]
+    },
+    {
+        "instruction": "Here is a review left by a customer on a product. Would you say he was satisfied or dissatisfied?\n\nReview: <text>\n\n<verbalizer>",
+        "verbalizers": [
+            "dissatisfied",
+            "satisfied"
+        ]
+    },
+    {
+        "instruction": "You are considering whether to buy a product. You look at the reviews.\nWould the following review decrease or increase the chances of you buying the product?\n\nProduct review: <text>\n\n<verbalizer>",
+        "verbalizers": [
+            "decrease",
+            "increase"
+        ]
+    },
+    {
+        "instruction": "Product review: <text>\n\nWould you say this review depicts the product in an unflattering or flattering light?\n\n<verbalizer>",
+        "verbalizers": [
+            "unflattering",
+            "flattering"
+        ]
+    }
+]
