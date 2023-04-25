@@ -51,7 +51,7 @@ def calculate_sensitivity(model_name_or_dir, tokenizer_name_or_dir,
 	NUM_ORDER_PERMUTATIONS = 5
 	if math.factorial(num_demonstrations) <= NUM_ORDER_PERMUTATIONS * 30:
 		all_permutations = list(permutations(range(num_demonstrations)))
-		all_permutations.remove(list(range(num_demonstrations))) # original ordering
+		all_permutations.remove(tuple(list(range(num_demonstrations)))) # original ordering
 		ex_orders = random.sample(all_permutations, min(NUM_ORDER_PERMUTATIONS, len(all_permutations)))
 	else:
 		ex_orders = set()
